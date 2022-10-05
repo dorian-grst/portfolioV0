@@ -34,7 +34,13 @@ body {
     top: 0;
     font-family: 'Inter', sans-serif;
     align-items: center;
+    margin: 0;
+    position: fixed;
+}
 
+.bodypadding {
+    padding-bottom: 50px;
+    position: static;
 }
 
 body>iframe{
@@ -42,6 +48,10 @@ body>iframe{
     top:0;
     z-index: -2;
     left: 0;
+}
+
+.zizi {
+    aspect-ratio: 1/1;
 }
 
 #hide{
@@ -84,7 +94,7 @@ body>iframe{
 
 #menu {
     align-items: center;
-    margin: 15px;
+    /* margin: 15px; */
 }
 
 #cvframe{

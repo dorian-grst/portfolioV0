@@ -3,8 +3,10 @@ const menu = document.getElementById('menu');
 wrapperMenu.addEventListener('click', function(){
     menu.classList.toggle('flex-row');
     menu.classList.toggle('flex-column');
-    menu.classList.toggle('hidden');    
-    wrapperMenu.classList.toggle('open');  
+    menu.classList.toggle('hidden');   
+    menu.classList.toggle('opened'); 
+    wrapperMenu.classList.toggle('open');
+    document.body.classList.toggle('bodypadding')
 })
 
 window.addEventListener('resize', function(){

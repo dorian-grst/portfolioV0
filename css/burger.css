@@ -24,7 +24,8 @@
 
 .opened {
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 5%;
     position: fixed;
     background-color: white;
     top: 0;

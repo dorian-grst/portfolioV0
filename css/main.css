@@ -1,0 +1,65 @@
+
+#memoji {
+    width: 125px;
+    height: 125px;
+}
+
+#main {
+    align-items: center;
+
+    margin: 15px;
+}
+
+#hi {
+    font-weight: 600;
+}
+
+#about {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+#presentation {
+    font-size: 35px;
+    color : #9d9ea5;
+}
+
+#personal {
+    font-size: 20px;
+    color : #9d9ea5;
+}
+
+#secondtext {
+    padding-top: 75px;
+}
+
+@media screen and (orientation:portrait), (max-width: 600px) {
+    #presentation {
+        width: 100%;
+    }
+    #personal {
+        width: 100%;
+    }
+    #firsttext {
+        width: 85%;
+    }
+    #secondtext {
+        width: 85%;
+    }
+    
+}
+
+@media screen and (orientation:landscape) and (min-width: 600px) {
+    #presentation {
+        max-width:40%;;
+    }
+    #personal {
+        max-width:60%;;
+    }
+    #firsttext {
+        width: 50%;
+    }
+    #secondtext {
+        width: 50%;
+    }
+}

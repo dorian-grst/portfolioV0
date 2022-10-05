@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'interregular';
+    src: url('/font/inter-variablefont_slntwght-webfont.woff2') format('woff2'),
+         url('/font/inter-variablefont_slntwght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+body {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 100px;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    font-family: 'Inter', sans-serif;
+    align-items: center;
+
+}
+
+body>iframe{
+    position:fixed;
+    top:0;
+    z-index: -2;
+    left: 0;
+}
+
+#hide{
+    position:fixed;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 200px;
+    height: 100px;
+    background-color: #eeeff1;
+}
+
+#namelogo, #cvframe {
+    align-items: center;
+    margin: 15px;
+}
+
+#imglogo {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#name, #github, #linkedin, #contact{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#nav {
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+#menu {
+    align-items: center;
+    margin: 15px;
+}
+
+#cvframe{
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+}
+
+#dl {
+    width: 25px;
+    height: 25px;
+}
+
+#cv {
+    margin-left:5px;
+    color:#eeeff1;
+}
+
+#cvframe, #dl, #cv{
+    background-color: black;
+}

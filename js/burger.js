@@ -10,6 +10,7 @@ const c = () => {
     menu.classList.toggle('opened'); 
     wrapperMenu.classList.toggle('open');
     document.body.classList.toggle('bodypadding')
+    menu.classList.toggle('clicked')
 }
 wrapperMenu.addEventListener('click', c)
 

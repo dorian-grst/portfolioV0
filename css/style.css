@@ -97,6 +97,10 @@ body>iframe{
     margin: 15px;
 }
 
+#menu.clicked {
+    margin: 0;
+}
+
 #cvframe{
     padding: 10px 20px 10px 20px;
     border-radius: 15px;

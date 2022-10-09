@@ -1,0 +1,55 @@
+#nav {
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#imglogo {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#namelogo {
+    align-items: center;
+    margin: 15px;
+}
+
+#menu {
+    align-items: center;
+    margin: 15px;
+}
+
+#menu.clicked {
+    margin: 0;
+}
+
+#name, #github, #linkedin, #contact{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#cvframe{
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    margin: 15px;
+    align-items: center;
+    background-color: black;
+}
+
+
+#dl {
+    width: 25px;
+    height: 25px;
+}
+
+#cv {
+    margin-left:5px;
+    color:#eeeff1;
+}

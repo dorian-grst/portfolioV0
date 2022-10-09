@@ -11,18 +11,11 @@
     padding: 0;
     text-decoration: none;
     color: black;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
-
-.flex-row {
-    display: flex;
-    flex-direction: row;
-}
-
-.flex-column {
-    display: flex;
-    flex-direction: column;
-}
-
 
 body {
     display:flex;
@@ -43,79 +36,20 @@ body {
     position: static;
 }
 
-body>iframe{
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+#video {
+    aspect-ratio: 1/1;
     position:fixed;
     top:0;
     z-index: -2;
     left: 0;
-}
-
-.frame {
-    aspect-ratio: 1/1;
-}
-
-#hide{
-    position:fixed;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-    width: 200px;
-    height: 100px;
-    background-color: #eeeff1;
-}
-
-#namelogo, #cvframe {
-    align-items: center;
-    margin: 15px;
-}
-
-#imglogo {
-    width: 50px;
-    height: 50px;
-    margin-right: 15px;
-    margin-left: 15px;
-}
-
-#name, #github, #linkedin, #contact{
-    margin-right: 15px;
-    margin-left: 15px;
-}
-
-.text {
-    font-size: 20px;
-    font-weight: 600;
-}
-
-#nav {
-    justify-content: space-between;
-    width: 100%;
-    align-items: center;
-}
-
-#menu {
-    align-items: center;
-    margin: 15px;
-}
-
-#menu.clicked {
-    margin: 0;
-}
-
-#cvframe{
-    padding: 10px 20px 10px 20px;
-    border-radius: 15px;
-}
-
-#dl {
-    width: 25px;
-    height: 25px;
-}
-
-#cv {
-    margin-left:5px;
-    color:#eeeff1;
-}
-
-#cvframe, #dl, #cv{
-    background-color: black;
 }

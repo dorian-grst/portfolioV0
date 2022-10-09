@@ -29,6 +29,7 @@ body {
     align-items: center;
     margin: 0;
     position: fixed;
+    background-color: #eeeff1;
 }
 
 .bodypadding {

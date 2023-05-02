@@ -1,11 +1,11 @@
-**PREMIER PORTFOLIO (tentative)** 🏷️
+**FIRST PORTFOLIO (attempt)** 🏷️
 
-Vous trouverez dans ce repository le premier portfolio que j'ai essayé de faire.
+You will find in this repository the first portfolio that I tried to make.
 
 # Installation
 
-Téléchargez ou clonez le répertoire de l'application sur votre ordinateur local.
+Download or clone the repository of the application on your local computer.
 
-# Lancement
+# Launch
 
-Une fois que vous avez téléchargé les fichiers, ouvrez le fichier HTML avec votre navigateur web préféré (par exemple, Chrome, Firefox, Safari). L'application devrait s'afficher correctement dans votre navigateur.
+Once you have downloaded the files, open the HTML file with your favorite web browser (e.g., Chrome, Firefox, Safari). The application should display correctly in your browser.
